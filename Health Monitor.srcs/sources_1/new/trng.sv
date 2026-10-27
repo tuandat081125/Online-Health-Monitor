@@ -23,7 +23,9 @@
 module trng
 ( 
   input logic rst,
-  input logic sel,
+  input logic [2:0] sel,
+  input logic en1,
+  input logic en2,
   
   output logic random_bit,
   output logic sample_clk,
@@ -34,10 +36,9 @@ module trng
   logic ro2;
   logic div_o;
   logic [15:0] cout;
-  logic [2:0] sel;
   
 
-  dual_ro_source u_source (.ro1(ro1),.ro2(ro2));
+  dual_ro_source u_source (.en1(en1), .en2(en2), .ro1(ro1),.ro2(ro2));
   dual_ro_sampler u_sampler (.ro1(ro1),.ro2(div_o),.data_out(random_bit));
   ro_ripple_divider u_ro_ripple_divider 
   (
