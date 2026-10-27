@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_rct_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_rct" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="5.647974 us"></ZoomEndTime>
+      <Cursor1Time time="0.130016 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_rct/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/div_o" type="logic">
+      <obj_property name="ElementShortName">div_o</obj_property>
+      <obj_property name="ObjectShortName">div_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/sel" type="array">
+      <obj_property name="ElementShortName">sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/phase_diff" type="array">
+      <obj_property name="ElementShortName">phase_diff[15:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_diff[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/fail_count" type="array">
+      <obj_property name="ElementShortName">fail_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fail_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/rct_fail" type="logic">
+      <obj_property name="ElementShortName">rct_fail</obj_property>
+      <obj_property name="ObjectShortName">rct_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/cutoff_C" type="array">
+      <obj_property name="ElementShortName">cutoff_C[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cutoff_C[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/histsize" type="array">
+      <obj_property name="ElementShortName">histsize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">histsize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/runcheck_debug" type="array">
+      <obj_property name="ElementShortName">runcheck_debug[31:0]</obj_property>
+      <obj_property name="ObjectShortName">runcheck_debug[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/saw_fail" type="logic">
+      <obj_property name="ElementShortName">saw_fail</obj_property>
+      <obj_property name="ObjectShortName">saw_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/exp_fail" type="logic">
+      <obj_property name="ElementShortName">exp_fail</obj_property>
+      <obj_property name="ObjectShortName">exp_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rct/random_bit_script" type="logic">
+      <obj_property name="ElementShortName">random_bit_script</obj_property>
+      <obj_property name="ObjectShortName">random_bit_script</obj_property>
+   </wvobject>
+</wave_config>

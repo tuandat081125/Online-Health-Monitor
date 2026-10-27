@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Oct 13 19:19:16 2026
+# Process ID         : 24608
+# Current directory  : F:/Project/Health Monitor
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent26556 F:\Project\Health Monitor\Health Monitor.xpr
+# Log file           : F:/Project/Health Monitor/vivado.log
+# Journal file       : F:/Project/Health Monitor\vivado.jou
+# Running On         : LAPTOP-3O671DBN
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12450HX
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 16873 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 27074 MB
+# Available Virtual  : 14794 MB
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Project/Health Monitor/Health Monitor.xpr}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/tb_trng.sv} w ]
+add_files -fileset sim_1 {{F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/tb_trng.sv}}
+export_ip_user_files -of_objects  [get_files {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/trng_tb.sv}}] -no_script -reset -force -quiet
+remove_files  {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/trng_tb.sv}}
+file delete -force {F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/trng_tb.sv}
+export_ip_user_files -of_objects  [get_files {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/tb_rct.sv}}] -no_script -reset -force -quiet
+remove_files  {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/tb_rct.sv}}
+file delete -force {F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/tb_rct.sv}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/tb_rct.sv} w ]
+add_files -fileset sim_1 {{F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/tb_rct.sv}}
+export_ip_user_files -of_objects  [get_files {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/tb_apt.sv}}] -no_script -reset -force -quiet
+remove_files  {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/tb_apt.sv}}
+file delete -force {F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/tb_apt.sv}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/tb_apt.sv} w ]
+add_files -fileset sim_1 {{F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/tb_apt.sv}}
+export_ip_user_files -of_objects  [get_files {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/trng_test.sv}}] -no_script -reset -force -quiet
+remove_files  {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/trng_test.sv}}
+file delete -force {F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/trng_test.sv}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/trng_test.sv} w ]
+add_files -fileset sim_1 {{F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/trng_test.sv}}
+export_ip_user_files -of_objects  [get_files {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/ro_gen_sim.sv}}] -no_script -reset -force -quiet
+remove_files  {{F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/ro_gen_sim.sv}}
+file delete -force {F:/Project/Health Monitor/Health Monitor.srcs/sources_1/new/ro_gen_sim.sv}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/ro_gen_sim.sv} w ]
+add_files -fileset sim_1 {{F:/Project/Health Monitor/Health Monitor.srcs/sim_1/new/ro_gen_sim.sv}}
